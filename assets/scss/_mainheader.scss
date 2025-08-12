@@ -1,0 +1,39 @@
+/*--- main-header ---*/
+
+
+.main-header {	
+	background: rgba(0, 0, 0, 0) url("../images/header.jpg") no-repeat scroll center 0 / cover;
+	height: 933px;
+	.main-header-text {
+		margin-top: 28%;	
+		text-transform: uppercase;
+		h1 {
+			font-size: 48px;
+			font-weight: 500;			
+			margin-top: 30px;
+			color: $white-color;		
+			letter-spacing: 2.5px;
+		}
+		h3{
+			color: #b3b3b3;
+			font-size: 28px;
+			font-weight: 400;
+			letter-spacing: 2.5px;
+			margin-top:20px;
+			font-family: 'Raleway', sans-serif;
+		}
+		a{
+			background: $oring-color;
+			padding: 10px 30px;
+			border-radius: 30px;
+			color: $white-color;	
+			margin-top: 50px;
+			display: inline-block;
+			font-size: 16px;
+			min-width: 150px;
+		}
+		a:hover{
+		background-color: #17161c ;
+		}
+	}
+}

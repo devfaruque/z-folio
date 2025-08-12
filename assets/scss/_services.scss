@@ -1,0 +1,31 @@
+/*--- services ---*/
+
+.services {
+	padding: 100px 0 70px;
+	.services-text {
+		transition: all 0.5s ease 0s;
+		text-align: center;
+		i {
+			color: $oring-color;
+			font-size: 42px;
+			border-radius: 50%;
+			margin-bottom: 20px;
+			background: #f9f9f9;
+			display: inline-block;
+			height: 100px;
+			width: 100px;
+			line-height: 100px;
+		}
+		h4 {
+			color: $titleFont-color;
+			font-weight: 500;
+		}		
+	}
+	.services-text-left {
+		padding-bottom: 20px;
+		border-radius: 5px;
+		h3{
+			color: $titleFont-color;
+		}
+	}
+}

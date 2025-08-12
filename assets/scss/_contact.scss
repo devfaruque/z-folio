@@ -1,0 +1,77 @@
+/*--- contact ---*/
+
+.contact {
+	background: rgba(0, 0, 0, 0) url("../images/contact-bg.jpg") no-repeat scroll 0 0 / cover;
+	padding: 100px 0 100px;
+	.contact-info {
+		background: #2e323d;
+		padding: 60px 30px;
+		color: #fff;
+		h3 {
+			color: #fff;
+			margin-top: 0;
+			margin-bottom: 30px;
+		}
+	}
+	h3 {
+			color: #000;
+			margin-top: 0;
+			margin-bottom: 30px;
+		}
+	.panel-group .panel-heading {
+		border-bottom: 0;
+		padding-left: 0;
+	}
+	.panel-title a {
+		font-size: 24px;
+		color: $titleFont-color;
+		font-weight: 700;
+	}
+	.panel-body {
+		background: $background01;
+		border-top: none !important;
+	}
+	.faq-title {
+		background: $yellow-color;
+		text-align: center;
+		padding: 10px 0 20px;
+		margin-bottom: 30px;
+		h2 {
+			color: $titleFont-color;
+			font-weight: 700;
+		}
+	}
+}
+
+.contact-from {
+	padding-bottom: 30px;
+	form {
+		padding: 0 20px;
+	}
+	.form-control {
+		background: none;
+		border:none;
+		border-bottom: 1px solid #000;
+		border-radius: 0;
+		color: #ececec;
+		margin-bottom: 30px;
+		padding: 20px 0 !important;
+		box-shadow: none;
+		height: auto;
+	}
+	.btn-custom {
+		background: $oring-color !important;
+		border-radius: 30px;
+		font-size: 18px;
+		font-weight: 500;
+		color: #fff;
+		letter-spacing: 0.04em;
+		margin-top: 15px;
+		padding: 10px 45px !important;
+		text-transform: uppercase;
+	}
+	.btn-custom:hover {
+		color: #fff;
+		background-color: $blue-color !important;
+	}
+}
